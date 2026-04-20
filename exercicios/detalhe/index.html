@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Currículo</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #fff;
+    }
+
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 50px;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin: 10px 0;
+    }
+
+    .btn {
+      margin-top: 20px;
+    }
+
+    .btn a {
+      text-decoration: none;
+      color: white;
+      background: #38bdf8;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin: 5px;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .btn a:hover {
+      background: #0ea5e9;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .skills div {
+      margin: 10px auto;
+      width: 300px;
+      background: #1e293b;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .skills span {
+      display: block;
+      padding: 10px;
+      background: #38bdf8;
+    }
+
+    .projects {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      width: 200px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      background: #020617;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Joás Neves</h1>
+  <h2>Desenvolvedor Front-End</h2>
+
+  <div class="btn">
+    <a href="#projetos">Ver Projetos</a>
+    <a href="#contato">Contato</a>
+  </div>
+</header>
+
+<section>
+  <h2>Sobre Mim</h2>
+  <p>Estou aprendendo desenvolvimento web e criando projetos para evoluir minhas habilidades.</p>
+</section>
+
+<section class="skills">
+  <h2>Habilidades</h2>
+
+  <div><span style="width: 90%">HTML</span></div>
+  <div><span style="width: 80%">CSS</span></div>
+  <div><span style="width: 70%">JavaScript</span></div>
+</section>
+
+<section id="projetos">
+  <h2>Projetos</h2>
+
+  <div class="projects">
+    <div class="card">Projeto 1</div>
+    <div class="card">Projeto 2</div>
+    <div class="card">Projeto 3</div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>Email: seuemail@gmail.com</p>
+  <p>WhatsApp: (xx) xxxx-xxxx</p>
+</section>
+
+<footer>
+  <p>© 2026 - Joás Neves</p>
+</footer>
+
+</body>
+</html>
